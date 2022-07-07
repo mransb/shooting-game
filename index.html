@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shooting Game</title>
+  </head>
+  <body>
+    <div><h1>Shooting Game</h1></div>
+    <div>
+      <!-- Player 1 -->
+      <div><h2>Player 1</h2></div>
+      <div>
+        <span id="p1FireScore"></span>
+      </div>
+
+      <!-- Player 2 -->
+      <div><h2>Player 2</h2></div>
+      <div>
+        <span id="p2FireScore"></span>
+      </div>
+    </div>
+
+    <!-- Assigning Buttons  -->
+    <br />
+    <button onclick="shootBtn()">Shoot</button>
+
+    <span>
+      <button onclick="resetBtn()">Reset Button</button>
+    </span>
+
+    <br /><br />
+
+    <div class="Score-Board">
+      <div id="grid-item-1">Player 1</div>
+      <div id="grid-item-3">Win</div>
+      <div id="grid-item-4">0</div>
+      <div id="grid-item-5">Player 2</div>
+      <div id="grid-item-7">Win</div>
+      <div id="grid-item-8">0</div>
+    </div>
+
+    <div class="result">
+      <div id="grid-item-9"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
